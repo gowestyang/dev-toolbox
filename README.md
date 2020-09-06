@@ -5,5 +5,7 @@ Template of frequently used utilities.
 - Statistics Calculator
     - Probability Distribution
     - Sampling Distribution
+    - Estimation
+    - Hypothesis Testing
 
 More on the way :)
