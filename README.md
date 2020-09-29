@@ -5,6 +5,7 @@ Frequently used concepts, templates and utilities.
     - Data Structures
     - Logging
     - Advanced Concepts
+- Data Profiling
 - Statistics Calculator
     - Probability Distribution
     - Sampling Distribution
