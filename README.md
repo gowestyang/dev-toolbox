@@ -1,7 +1,10 @@
 # tools-utilities
-Template of frequently used utilities.
+Frequently used concepts, templates and utilities.
 
-- Logging
+- Python
+    - Data Structures
+    - Logging
+    - Advanced Concepts
 - Statistics Calculator
     - Probability Distribution
     - Sampling Distribution
