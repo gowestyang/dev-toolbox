@@ -1,0 +1,14 @@
+conda install -c conda-forge jupyterlab=3
+%windir%\System32\cmd.exe "/K" D:\anaconda3\Scripts\activate.bat D:\anaconda3 & jupyter lab && exit
+
+-------------------------------------------
+
+conda create -n scipy171 python=3.8.5 ipykernel jupyter numpy pandas statsmodels matplotlib
+conda activate scipy171
+python -m ipykernel install --user --name=scipy171
+
+-------------------------------------------
+conda env remove -n scipy171
+
+jupyter kernelspec list
+jupyter kernelspec remove scipy171
