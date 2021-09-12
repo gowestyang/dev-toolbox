@@ -1,10 +1,7 @@
-# tools-utilities
-Frequently used concepts, templates and utilities.
+# developments
 
+- Cheat Sheets
+- Data Structures and Algorithms
 - Python
-    - Data Structures
     - Logging
     - Advanced Concepts
-- Data Profiling
-
-More on the way :)
