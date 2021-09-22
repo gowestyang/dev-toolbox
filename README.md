@@ -5,3 +5,4 @@
 - Python
     - Logging
     - Advanced Concepts
+- SQL playground
