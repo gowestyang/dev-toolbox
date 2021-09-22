@@ -1,5 +1,26 @@
+# Jupyter Lab
 conda install -c conda-forge jupyterlab=3
 %windir%\System32\cmd.exe "/K" D:\anaconda3\Scripts\activate.bat D:\anaconda3 & jupyter lab && exit
+
+-------------------------------------------
+conda create -n keras
+conda activate keras
+
+conda env remove -n keras
+
+jupyter kernelspec list
+jupyter kernelspec remove keras
+
+-------------------------------------------
+
+conda install python=3.8.5 keras keras-gpu tensorflow tensorflow-gpu pandas scikit-learn ipykernel
+pip install matplotlib # installation from conda somewhat breaks GPU usage
+pip install fastapi
+
+python -m ipykernel install --user --name=keras
+
+from tensorflow.python.client import device_lib
+print(device_lib.list_local_devices())
 
 -------------------------------------------
 
@@ -8,7 +29,3 @@ conda activate scipy171
 python -m ipykernel install --user --name=scipy171
 
 -------------------------------------------
-conda env remove -n scipy171
-
-jupyter kernelspec list
-jupyter kernelspec remove scipy171
