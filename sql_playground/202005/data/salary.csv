@@ -1,0 +1,9 @@
+month,employee,manager,salary
+2010-01,Alice,Cee,2000
+2010-01,Bob,Cee,2500
+2010-01,Cee,David,2250
+2010-01,David,Eric,3000
+2010-02,Alice,Cee,1500
+2010-02,Bob,Cee,1500
+2010-02,Cee,David,1050
+2010-02,David,Eric,2400

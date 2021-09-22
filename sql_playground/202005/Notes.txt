@@ -1,0 +1,1 @@
+Tested on db-fiddle.com with PostgreSQL v12

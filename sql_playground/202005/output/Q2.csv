@@ -1,0 +1,4 @@
+date,annual_active_buyer,first_used_payment_channel,total_payment_amount
+2019-01-01,2,PayPal,300
+2019-01-02,1,WeChat,300
+2019-01-05,1,GrabPay,150

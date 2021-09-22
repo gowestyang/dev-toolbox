@@ -1,0 +1,8 @@
+timestamp,transaction_id,user_id,payment_channel,payment_amount
+2019-01-01 10:00:00,1,A,PayPal,100
+2019-01-01 11:00:00,2,B,Credit Card,200
+2019-01-02 13:00:00,3,A,Debit Card,50
+2019-01-02 15:00:00,4,C,WeChat,300
+2019-01-02 16:00:00,5,C,WeChat,30
+2019-01-04 03:00:00,6,A,GrabPay,20
+2019-01-05 09:00:00,7,D,GrabPay,150
