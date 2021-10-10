@@ -15,6 +15,7 @@ jupyter kernelspec remove keras
 
 conda install python=3.8.5 keras keras-gpu tensorflow tensorflow-gpu pandas scikit-learn ipykernel
 pip install matplotlib # installation from conda somewhat breaks GPU usage
+pip install seaborn==0.11.2
 pip install fastapi
 
 python -m ipykernel install --user --name=keras
